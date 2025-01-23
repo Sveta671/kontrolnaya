@@ -132,3 +132,61 @@ body{
     border-color: #ffffff;
   }
 
+ main .collumns {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    filter: drop-shadow(1300px 300px 150px #d9ff0060);
+  }
+  main .collumns ul{
+    list-style-image: url("фотки\Vector 66.png");
+    width: 265px;
+  }
+  main .collumns .w3 ul{
+    color:#E3FE0F;
+  }
+  
+  main .hero .hero--info h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  main .hero .hero--info{
+    width: 500px;
+  }
+  
+  main .hero {
+    position: relative;
+  }
+  
+  main .hero img{
+    position: absolute;
+    right: 0;
+  }
+
+
+  .ts{
+    color: white;
+  }
+
+  .container {
+    width: 507px;
+    height: 77px;
+    display: flex; /* Включаем flexbox для контейнера */
+    align-items: flex-start; /* Выравниваем элементы по верхней границе */
+  }
+  
+  .container > p {
+    flex: 0; /* Занимает доступное пространство по горизонтали */
+    margin-right: 20px; /* Отступ справа от текста */
+  }
+  
+  .inner-container {
+    background-color: #f0f0f0; /* Цвет фона для внутреннего контейнера (для наглядности) */
+    padding: 10px;
+    box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
+  }
